@@ -60,5 +60,3 @@ To utilize this application:
 4. Select the desired camera from the dropdown menu and click `Start`. (Usually 0)
 5. Click the `Take photo` button to capture a photo, and the application will apply the style transfer and display the result.
 6. Click `Close` to exit the application.
-
-**Reminder:** Before running the application code, `cd` into the `./selfie_style_transfer` directory.
