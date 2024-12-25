@@ -44,8 +44,7 @@ To evaluate your own results:
 
 ## Application
 
-To enable more intuitive usage of our trained model, we developed an application.The application code is under `./selfie_style_transfer`.
-You can run `app.py` to try style transfer on your selfie photo.
+To enable more intuitive usage of our trained model, we developed an application.You can run `app.py` to try style transfer on your selfie photo.
 
 To utilize this application:
 1. Install dependencies:
