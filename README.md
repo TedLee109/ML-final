@@ -20,7 +20,8 @@ To test image to image pipeline, you can run `run_img2img.ipynb`. The first bloc
    INSTANCE_DIR=/path/to/your/dataset
    OUTPUT_DIR=/path/to/store/safetensors
    ```
-4. (Optional) Adjust the parameters in `./training_scripts/multivector_example.sh`
+3. (Optional) Adjust the parameters in `./training_scripts/multivector_example.sh`
+4. Run `multivector_example.sh`
 ## Evaluation 
 
 All evaluation code and data are under `./evaluation`. To calculate content and style loss for Miyasaki Hayao's style images, run `content_loss.py` and `style_loss.py`.
