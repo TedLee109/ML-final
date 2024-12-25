@@ -1,3 +1,19 @@
+## Prerequisites
+
+Before running any scripts or applications, ensure you have installed the necessary packages listed in `requirements.txt` and run the following command to install the package in editable mode:
+```bash
+pip install -e .
+```
+
+It is recommended to use a virtual environment to manage your dependencies. You can create and activate a virtual environment with the following commands:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+After activating the virtual environment, install the required packages:
+```bash
+pip install -r requirements.txt
+```
 ## Test Image to Image 
 To test image to image pipeline, you can run `run_img2img.ipynb`. The first block is to transfer a single image to Miyasaki Hayao's style, and the second block is to tranfer images in a folder at once. 
 
