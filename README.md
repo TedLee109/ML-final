@@ -42,3 +42,23 @@ To evaluate your own results:
 
 **Reminder:** Before running the evaluation code, `cd` into the `./evaluation` directory.
 
+## Application
+
+To enable more intuitive usage of our trained model, we developed an application.The application code is under `./selfie_style_transfer`.
+You can run `app.py` to try style transfer on your selfie photo.
+
+To utilize this application:
+1. Install dependencies:
+   Ensure you have all necessary libraries installed. You can do this by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Prepare your environment:
+   Make sure your environment supports GPU acceleration.
+3. Run the application:
+   Execute the `app.py` file to start the application:
+4. Select the desired camera from the dropdown menu and click `Start`. (Usually 0)
+5. Click the `Take photo` button to capture a photo, and the application will apply the style transfer and display the result.
+6. Click `Close` to exit the application.
+
+**Reminder:** Before running the application code, `cd` into the `./selfie_style_transfer` directory.
